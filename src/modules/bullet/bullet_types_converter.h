@@ -31,10 +31,12 @@
 #ifndef BULLET_TYPES_CONVERTER_H
 #define BULLET_TYPES_CONVERTER_H
 
-#include "core/math/basis.h"
-#include "core/math/transform_3d.h"
-#include "core/math/vector3.h"
-#include "core/typedefs.h"
+#include "godot_cpp/variant/basis.hpp"
+#include "godot_cpp/variant/transform3d.hpp"
+#include "godot_cpp/variant/vector3.hpp"
+//#include "core/typedefs.h"
+#include "godot_cpp/core/defs.hpp"
+using namespace godot;
 
 #if defined(__clang__) && (__clang_major__ >= 13)
 #pragma clang diagnostic push
@@ -51,7 +53,7 @@
 
 /**
 	@author AndreaCatania
-	@author FatherTedd
+	@author FatherTed
 	*/
 
 // Bullet to Godot

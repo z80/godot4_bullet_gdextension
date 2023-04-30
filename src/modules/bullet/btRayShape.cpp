@@ -30,7 +30,8 @@
 
 #include "btRayShape.h"
 
-#include "core/math/math_funcs.h"
+//#include "core/math/math_funcs.h"
+#include "godot_cpp/core/math.hpp"
 
 #include <LinearMath/btAabbUtil2.h>
 

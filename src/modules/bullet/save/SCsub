@@ -197,11 +197,9 @@ if env["builtin_bullet"]:
         "LinearMath/TaskScheduler/btThreadSupportWin32.cpp",
     ]
 
-    thirdparty_sources = [thirdparty_dir + file for file in bullet2_src]
-
-    env_bullet.Prepend(CPPPATH=[thirdparty_dir])
-
-    env_bullet.Append(CPPDEFINES=["BT_USE_OLD_DAMPING_METHOD", "BT_THREADSAFE"])
+thirdparty_sources = [thirdparty_dir + file for file in bullet2_src]
+env_bullet.Prepend(CPPPATH=[thirdparty_dir])
+env_bullet.Append(CPPDEFINES=["BT_USE_OLD_DAMPING_METHOD", "BT_THREADSAFE"])
 
     env_thirdparty = env_bullet.Clone()
     env_thirdparty.disable_warnings()

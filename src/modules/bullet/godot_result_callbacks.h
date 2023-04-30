@@ -31,8 +31,9 @@
 #ifndef GODOT_RESULT_CALLBACKS_H
 #define GODOT_RESULT_CALLBACKS_H
 
-#include "servers/physics_server_3d.h"
-#include "core/templates/rb_set.h"
+#include "godot_cpp/classes/physics_server3d.hpp"
+#include "godot_cpp/templates/rb_set.hpp"
+using namespace godot;
 
 #if defined(__clang__) && (__clang_major__ >= 13)
 #pragma clang diagnostic push

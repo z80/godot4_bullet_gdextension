@@ -31,7 +31,8 @@
 #ifndef RID_BULLET_H
 #define RID_BULLET_H
 
-#include "core/templates/rid.h"
+#include "godot_cpp/variant/rid.hpp"
+using namespace godot;
 
 /**
 	@authod AndreaCatania

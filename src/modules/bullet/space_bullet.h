@@ -31,11 +31,12 @@
 #ifndef SPACE_BULLET_H
 #define SPACE_BULLET_H
 
-#include "core/variant/variant.h"
-#include "core/templates/vector.h"
+#include "godot_cpp/variant/variant.hpp"
+#include "godot_cpp/templates/vector.hpp"
 #include "godot_result_callbacks.h"
 #include "rid_bullet.h"
-#include "servers/physics_server_3d.h"
+#include "godot_cpp/classes/physics_server3d.hpp"
+using namespace godot;
 
 #include <BulletCollision/BroadphaseCollision/btBroadphaseProxy.h>
 #include <BulletCollision/BroadphaseCollision/btOverlappingPairCache.h>

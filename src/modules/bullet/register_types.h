@@ -32,10 +32,12 @@
 #define BULLET_REGISTER_TYPES_H
 
 /**
-	@author FatherTedd
+	@author FatherTed
 */
 
-#include "modules/register_module_types.h"
+#include "godot_cpp/core/class_db.hpp"
+
+using namespace godot;
 
 //void register_bullet_types();
 void initialize_bullet_module( ModuleInitializationLevel p_level );

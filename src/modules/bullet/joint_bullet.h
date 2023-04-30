@@ -32,10 +32,12 @@
 #define JOINT_BULLET_H
 
 #include "constraint_bullet.h"
-#include "servers/physics_server_3d.h"
+#include "godot_cpp/classes/physics_server3d.hpp"
+using namespace godot;
 
 /**
 	@author AndreaCatania
+	FatherTed
 */
 
 class RigidBodyBullet;

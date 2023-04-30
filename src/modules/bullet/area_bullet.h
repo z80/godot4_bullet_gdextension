@@ -32,9 +32,10 @@
 #define AREA_BULLET_H
 
 #include "collision_object_bullet.h"
-#include "core/templates/vector.h"
-#include "servers/physics_server_3d.h"
+#include "godot_cpp/templates/vector.hpp"
+#include "godot_cpp/classes/physics_server3d.hpp"
 #include "space_bullet.h"
+using namespace godot;
 
 /**
 	@author AndreaCatania

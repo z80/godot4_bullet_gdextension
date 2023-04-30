@@ -31,10 +31,10 @@
 #ifndef COLLISION_OBJECT_BULLET_H
 #define COLLISION_OBJECT_BULLET_H
 
-#include "core/math/transform_3d.h"
-#include "core/math/vector3.h"
-#include "core/object/object.h"
-#include "core/templates/vset.h"
+#include "godot_cpp/variant/transform3d.hpp"
+#include "godot_cpp/variant/vector3.hpp"
+#include "godot_cpp/classes/object.hpp"
+#include "godot_cpp/templates/vset.hpp"
 #include "shape_owner_bullet.h"
 
 #if defined(__clang__) && (__clang_major__ >= 13)
