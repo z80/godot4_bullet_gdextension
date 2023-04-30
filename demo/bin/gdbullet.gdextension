@@ -1,0 +1,13 @@
+
+[configuration]
+
+entry_symbol = "example_library_init"
+
+[libraries]
+
+linux.64="res://bin/libgdexample.linux.64.so"
+#windows.x86_64="res://bin/libgdexample.windows.x86_64.dll"
+windows.x86_64="res://bin/libgdexample.windows.template_debug.x86_64.dll"
+macos="res://bin/libgdexample.macos.framework"
+
+
